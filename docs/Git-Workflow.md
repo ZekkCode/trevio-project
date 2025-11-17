@@ -19,7 +19,7 @@ mkdir -p app/{controllers,models,views} config core public database docs
 touch README.md .gitignore
 
 # Add remote
-git remote add origin https://github.com/Buthzz/trevio.git
+git remote add origin https://github.com/Buthzz/trevio-project.git
 ```
 
 ### 2. .gitignore Template
@@ -70,8 +70,8 @@ git push -u origin main
 
 ```bash
 # Clone repository
-git clone https://github.com/Buthzz/trevio.git
-cd trevio
+git clone https://github.com/Buthzz/trevio-project.git
+cd trevio-project
 
 # Set git identity (PENTING - untuk track kontribusi)
 git config user.name "Nama Lengkap"

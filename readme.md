@@ -163,8 +163,8 @@ trevio/
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/Buthzz/trevio.git
-   cd trevio
+   git clone https://github.com/Buthzz/trevio-project.git
+   cd trevio-project
    ```
 
 2. **Database Setup**
