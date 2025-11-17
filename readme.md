@@ -34,9 +34,9 @@
 |------|------|------------------|
 | **Hendrik** | Project Manager & Full Stack Dev | Project coordination, backend core features, code review |
 | **Fajar** | Full Stack Dev & DevOps | Backend development, deployment, server setup, database optimization |
-| **Syadat** | User Flow & QA | data integrity, testing & quality assurance |
-| **Zakaria** | UI/UX Designer | Interface design, user experience, prototyping |
 | **Reno** | Frontend Developer | Frontend implementation, Tailwind CSS integration, responsive design |
+| **Zakaria** | UI/UX Designer | Interface design, user experience, prototyping |
+| **Syadat** | User Flow & QA | data integrity, testing & quality assurance |
 
 ---
 
@@ -163,7 +163,7 @@ trevio/
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/your-team/trevio.git
+   git clone https://github.com/Buthzz/trevio.git
    cd trevio
    ```
 
@@ -296,11 +296,11 @@ git push origin feature/hotel-booking
 
 ## 📞 Contact
 
-**Lecturer:** Moch Kautsar Sophan  
+**Lecturer:** Moh. Kautsar Sophan , S.Kom., M.MT  
 **Course:** Web Application Programming - Ganjil 2025
 
 For questions or issues, please contact the project manager:
-- **Hendrik** - [hendrik@email.com]
+- **Hendrik** - [hendrikprw@gmail.com]
 
 ---
 
