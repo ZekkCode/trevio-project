@@ -9,8 +9,8 @@
 # Jangan centang "Initialize with README" (kita buat manual)
 
 # Di local:
-mkdir trevio
-cd trevio
+mkdir trevio-project
+cd trevio-project
 git init
 git branch -M main
 
