@@ -1,9 +1,9 @@
-1. Gambaran Umum Aplikasi
+# 1. Gambaran Umum Aplikasi
 Tulis:
 - Judul aplikasi
 - Latar belakang aplikasi
 - Masalah pengguna yang ingin diatasi
-2. Daftar Fitur dan Penjelasannya
+# 2. Daftar Fitur dan Penjelasannya
 Jelaskan setidaknya tiga fitur yang diimplementasikan:
 - Cara kerja fitur tersebut
 - Nilai tambah fitur tersebut
@@ -14,42 +14,94 @@ Sebutkan:
 - Sistem penyimpanan data
 - Alasan memilih teknologi tersebut
 
-4. Dokumentasi Akses Proyek
+# 4. Dokumentasi Akses Proyek
 Tulis:
 - Tautan repositori
 - Panduan instalasi dan peluncuran aplikasi
 - Struktur file utama
 
-5. Peran dan Kontribusi Pribadi
+# 5. Peran dan Kontribusi Pribadi
 Jelaskan:
 - Tanggung jawab Anda
 - Kesulitan yang dihadapi
 - Solusi yang diimplementasikan
 - Penilaian hasil kerja Anda sendiri
-6. Evaluasi Diri
+# 6. Evaluasi Diri
 Tuliskan:
 - Keterampilan atau pemahaman baru
 - Bagian yang paling menantang
 
 
-Gambaran Aplikasi
-Judul Aplikasi: Trevio – Platform Pemesanan Travel (Hotel & Penerbangan).
-Latar Belakang: Aplikasi ini dikembangkan sebagai solusi untuk memudahkan wisatawan dalam memesan akomodasi dan layanan travel secara online. Dalam industri pariwisata, calon pelancong sering harus menggunakan banyak situs atau agen untuk mencari hotel dan penerbangan terpisah. Trevio hadir dengan latar belakang kebutuhan akan satu platform terpadu yang menyederhanakan proses pencarian hingga pemesanan. Proyek ini juga merupakan implementasi praktis dari pembelajaran pengembangan web terpadu (front-end, back-end, database) dalam satu aplikasi real-world.
+# 1. Application Overview
+## * Application title: Trevio
+## * Background of the application: Trevio adalah aplikasi berbasis web yang dirancang untuk mempermudah proses pencarian dan pemesanan hotel secara daring. Latar belakang dari pembuatan aplikasi ini berasal dari kebutuhan yang semakin meningkat di kalangan masyarakat untuk bepergian dengan cara yang lebih efisien, hemat waktu, dan praktis. Dalam dunia yang semakin serba digital, banyak orang mulai meninggalkan metode konvensional dan memilih layanan online yang cepat dan mudah digunakan. Namun, kenyataannya, tidak semua platform menyediakan pengalaman pemesanan yang lengkap dan terintegrasi. Oleh karena itu, Trevio hadir sebagai solusi all-in-one yang memungkinkan pengguna mencari, membandingkan, dan memesan hotel hanya dalam beberapa langkah sederhana, tanpa perlu membuka banyak aplikasi atau situs.
+## * User problems it aims to address: Pengguna sering kali mengalami kesulitan dalam menemukan hotel yang sesuai dengan anggaran, lokasi strategis, dan fasilitas yang mereka butuhkan. Selain itu, proses pemesanan hotel secara manual seperti menelepon pihak hotel atau mengunjungi situs berbeda untuk membandingkan informasi sering kali tidak efisien dan memakan waktu. Masalah lain yang umum adalah kurangnya informasi detail dan visualisasi yang memadai, sehingga pengguna merasa ragu sebelum mengambil keputusan. Trevio ingin menyelesaikan semua permasalahan ini dengan menyatukan fitur pencarian, filter, tampilan detail hotel, dan sistem pemesanan dalam satu aplikasi yang intuitif dan user-friendly.
+
+# 2. List of Features and Their Explanations
+## * Pencarian dan Filter Hotel:
+  Cara kerja: Pengguna memasukkan kata kunci seperti nama kota atau destinasi, lalu sistem akan menampilkan daftar hotel yang tersedia dari database. Pengguna juga dapat menerapkan filter berdasarkan harga, bintang hotel, fasilitas tertentu, dan lainnya. Sistem memanfaatkan query SQL untuk mencari hasil paling relevan dan menampilkannya dalam tampilan yang rapi dan mudah dipahami.
+  Nilai tambah: Fitur ini memudahkan pengguna untuk langsung menemukan hotel yang sesuai preferensi tanpa harus melihat satu per satu. Filter yang beragam juga membuat pengalaman pencarian lebih cepat, personal, dan menyenangkan, serta menghemat waktu pengguna secara signifikan.
+
+## * Detail Hotel:
+  Cara kerja: Setelah pengguna memilih salah satu hasil pencarian, mereka akan diarahkan ke halaman detail hotel. Halaman ini menyajikan informasi lengkap seperti nama hotel, lokasi, rating, ulasan pengguna (jika ada), daftar fasilitas, tipe kamar yang tersedia, harga per malam, dan galeri foto hotel.
+  Nilai tambah: Dengan informasi yang lengkap dan visual yang mendukung, pengguna bisa mengambil keputusan dengan lebih percaya diri. Adanya galeri gambar juga membantu pengguna untuk membayangkan suasana hotel, yang menjadi faktor penting dalam proses pemesanan.
+
+## * Form Booking:
+  Cara kerja: Setelah memilih hotel dan kamar, pengguna dapat mengisi form booking yang terdiri dari data pribadi, tanggal menginap, dan preferensi lainnya. Data ini akan disimpan ke dalam database dan ditampilkan pada halaman konfirmasi sebelum proses pembayaran dilakukan.
+  Nilai tambah: Proses booking yang terintegrasi secara langsung membuat pengguna tidak perlu lagi menghubungi pihak hotel secara manual. Selain itu, dengan sistem konfirmasi yang langsung tampil, pengguna bisa memastikan semua data sudah benar sebelum melanjutkan ke pembayaran, sehingga mengurangi potensi kesalahan.
+
+# 3. Technology and Reasons for Selection
+## * Front-end technology: HTML, Tailwind CSS, dan JavaScript sederhana.
+## * Back-end technology: PHP (native tanpa framework besar seperti Laravel)
+## * Data storage system: MySQL
+## * Reasons for choosing the technology: HTML dan Tailwind CSS dipilih karena keduanya ringan, mudah digunakan, dan cocok untuk membangun antarmuka yang bersih serta responsif. Tailwind sangat cocok untuk desain mobile-first dan memberikan kemudahan dalam proses styling dengan class utility yang fleksibel. PHP dipilih karena sudah banyak digunakan di berbagai proyek web, mudah dipelajari, dan mendukung integrasi dengan sistem database secara efisien. Sementara itu, MySQL merupakan sistem penyimpanan data yang andal dan cocok untuk menyimpan informasi relasional, seperti data hotel, kamar, pengguna, dan transaksi booking. Semua teknologi ini sangat mendukung pengembangan proyek berskala kecil hingga menengah dengan keterbatasan waktu dan sumber daya.
+
+# 4. Project Access Documentation
+
+* Repository link: [https://github.com/Buthzz/trevio-project.git](https://github.com/Buthzz/trevio-project.git) (branch: development)
+* Application installation and launch guide:
+
+  1. Clone repository dari GitHub menggunakan perintah git clone.
+  2. Buat database baru di MySQL, kemudian import file SQL yang terdapat di folder database/trevio_final.sql.
+  3. Buka file config/database.php dan sesuaikan konfigurasi koneksi database (DB_HOST, DB_NAME, DB_USER, DB_PASSWORD).
+  4. Arahkan web server (XAMPP/Laragon) ke folder public/ sebagai root directory.
+  5. Akses aplikasi melalui browser dengan alamat [http://localhost/trevio-project/public](http://localhost/trevio-project/public)
+  6. Pastikan semua dependensi berjalan baik seperti versi PHP sesuai dan modul database aktif.
+* Main file structure:
+
+  * app/views/ : berisi file tampilan halaman frontend untuk user.
+  * app/controllers/ : mengatur proses logika aplikasi dan pengolahan data.
+  * public/ : folder untuk file publik seperti CSS, JavaScript, dan gambar.
+  * database/ : berisi file struktur database dan data awal yang bisa di-import.
+
+# 5.Your responsibilities: Saya bertugas di bagian desain UI/UX serta implementasi halaman frontend untuk customer, meliputi landing page, halaman hasil pencarian, detail hotel, dan form booking. Di sisi backend, saya juga mengerjakan logika pencarian hotel dengan membuat SearchController yang menyesuaikan query berdasarkan input pengguna.
+## * Difficulties encountered: Tantangan terbesar saya adalah adaptasi dengan Tailwind CSS karena sebelumnya saya lebih terbiasa dengan CSS konvensional. Selain itu, membuat desain yang benar-benar responsif untuk berbagai ukuran layar juga cukup menyita waktu. Membuat logika pencarian hotel yang fleksibel tetapi tetap efisien juga menjadi tantangan tersendiri.
+## * Solutions implemented: Saya menyiasatinya dengan membaca dokumentasi Tailwind secara rutin, mencoba berbagai pendekatan untuk membuat komponen UI yang konsisten, serta melakukan testing terus-menerus di berbagai device. Saya juga berdiskusi dengan tim backend untuk memastikan query SQL yang saya susun sudah optimal dan tidak membebani sistem.
+## * Assessment of your own work results: Saya cukup puas dengan hasil yang saya capai. Semua halaman yang menjadi tanggung jawab saya berhasil ditampilkan dengan baik, desain UI konsisten dan bersih, serta fungsi pencarian berjalan dengan baik. Saya juga berhasil memastikan bahwa halaman dapat berjalan lancar di berbagai perangkat, baik desktop maupun mobile.
+
+# 6. Self-Evaluation
+## * New skills or understanding: Saya memperoleh banyak pemahaman baru, khususnya dalam penggunaan Tailwind CSS dan penerapan prinsip mobile-first dalam desain UI. Selain itu, saya juga belajar menyusun query SQL untuk keperluan pencarian yang dinamis, serta memahami struktur MVC meskipun tanpa framework.
+## * Most challenging part: Bagian paling menantang adalah menyusun tampilan responsif yang tidak hanya terlihat bagus, tapi juga fungsional dan bisa beradaptasi terhadap berbagai kondisi data. Menghubungkan frontend dengan backend dan memastikan semuanya sinkron juga menjadi bagian penting yang perlu banyak percobaan dan debugging untuk menyempurnakannya.
+
+
+# Gambaran Aplikasi
+## Judul Aplikasi: Trevio – Platform Pemesanan Travel (Hotel & Penerbangan).
+## Latar Belakang: Aplikasi ini dikembangkan sebagai solusi untuk memudahkan wisatawan dalam memesan akomodasi dan layanan travel secara online. Dalam industri pariwisata, calon pelancong sering harus menggunakan banyak situs atau agen untuk mencari hotel dan penerbangan terpisah. Trevio hadir dengan latar belakang kebutuhan akan satu platform terpadu yang menyederhanakan proses pencarian hingga pemesanan. Proyek ini juga merupakan implementasi praktis dari pembelajaran pengembangan web terpadu (front-end, back-end, database) dalam satu aplikasi real-world.
 Masalah Pengguna yang Diatasi: Trevio mengatasi beberapa masalah umum yang dihadapi pengguna. Pertama, kesulitan mencari dan membandingkan hotel – pengguna dapat dengan mudah mencari hotel sesuai lokasi, harga, atau fasilitas yang diinginkan, sehingga tidak perlu membuka banyak platform lain. Kedua, proses pemesanan manual yang tidak efisien – melalui Trevio, pemesanan kamar hotel dapat dilakukan secara online dengan cepat tanpa harus menelepon atau datang langsung. Ketiga, keterbatasan informasi – aplikasi ini memberikan detail lengkap (deskripsi, foto, ketersediaan kamar, ulasan) sehingga pengguna dapat membuat keputusan dengan informasi yang memadai. Bagi pemilik hotel, Trevio juga membantu mereka menjangkau lebih banyak pelanggan secara digital dan mengelola pemesanan dengan lebih terorganisir.
 Daftar Fitur dan Penjelasannya
-Pencarian dan Filter Hotel: Aplikasi menyediakan fitur pencarian hotel dimana pengguna dapat memasukkan lokasi/tujuan, tanggal, atau kata kunci tertentu. Sistem akan melakukan query database untuk menampilkan daftar hotel yang sesuai dengan kriteria pencarian tersebut. Pengguna juga bisa memfilter hasil (misalnya berdasarkan harga atau kategori). Cara kerja: pengguna mengisi form pencarian di halaman landing, lalu SearchController pada back-end memproses input ini dengan menjalankan perintah SQL SELECT untuk mengambil data hotel yang cocok. Nilai tambah: fitur ini memudahkan pengguna menemukan opsi penginapan yang paling relevan dengan cepat, tanpa harus melihat semua hotel satu per satu. Filter yang tersedia membantu menyaring hasil sehingga pengalaman pencarian lebih efisien dan personal.
-Halaman Detail Hotel: Setiap hotel dalam hasil pencarian dapat diklik untuk melihat informasi detail. Halaman detail hotel menampilkan deskripsi lengkap hotel, fasilitas yang tersedia, foto-foto, tipe kamar beserta harga, dan ulasan (jika ada). Cara kerja: front-end menampilkan data detail yang diambil dari basis data (melalui model Hotel dan Room) untuk hotel terpilih. Jika pengguna memilih tanggal menginap, halaman ini juga dapat menampilkan ketersediaan kamar. Nilai tambah: fitur ini memberikan transparansi dan informasi lengkap sebelum booking – pengguna dapat menilai apakah hotel tersebut cocok dengan kebutuhannya. Dengan adanya detail lengkap dalam satu halaman, pengguna tidak perlu mencari informasi di tempat lain, sehingga proses pengambilan keputusan lebih cepat.
-Pemesanan Kamar (Booking): Trevio memungkinkan pengguna melakukan pemesanan kamar hotel langsung dari aplikasi. Setelah memilih hotel dan kamar, pengguna dapat mengisi formulir booking (data diri, tanggal check-in/out, dll) di halaman Booking. Cara kerja: ketika formulir pemesanan dikirim, BookingController (bagian back-end) akan menyimpan data pemesanan ke database. Sistem juga terintegrasi dengan metode pembayaran: pengguna mendapatkan instruksi pembayaran online, dan admin akan memverifikasi pembayaran tersebut melalui panel admin. Nilai tambah: fitur booking online ini mengotomatisasi proses pemesanan yang sebelumnya manual. Pengguna mendapatkan kemudahan karena bisa memesan kapan saja dan langsung mendapat konfirmasi ketersediaan. Terintegrasinya pembayaran online membuat proses transaksi aman dan cepat; pengguna cukup mengikuti petunjuk pembayaran (misalnya melalui gateway Xendit) tanpa khawatir konfirmasi, karena sistem akan mencatat status pembayaran dan bahkan mendukung proses refund jika terjadi pembatalan.
+## Pencarian dan Filter Hotel: Aplikasi menyediakan fitur pencarian hotel dimana pengguna dapat memasukkan lokasi/tujuan, tanggal, atau kata kunci tertentu. Sistem akan melakukan query database untuk menampilkan daftar hotel yang sesuai dengan kriteria pencarian tersebut. Pengguna juga bisa memfilter hasil (misalnya berdasarkan harga atau kategori). Cara kerja: pengguna mengisi form pencarian di halaman landing, lalu SearchController pada back-end memproses input ini dengan menjalankan perintah SQL SELECT untuk mengambil data hotel yang cocok. Nilai tambah: fitur ini memudahkan pengguna menemukan opsi penginapan yang paling relevan dengan cepat, tanpa harus melihat semua hotel satu per satu. Filter yang tersedia membantu menyaring hasil sehingga pengalaman pencarian lebih efisien dan personal.
+## Halaman Detail Hotel: Setiap hotel dalam hasil pencarian dapat diklik untuk melihat informasi detail. Halaman detail hotel menampilkan deskripsi lengkap hotel, fasilitas yang tersedia, foto-foto, tipe kamar beserta harga, dan ulasan (jika ada). Cara kerja: front-end menampilkan data detail yang diambil dari basis data (melalui model Hotel dan Room) untuk hotel terpilih. Jika pengguna memilih tanggal menginap, halaman ini juga dapat menampilkan ketersediaan kamar. Nilai tambah: fitur ini memberikan transparansi dan informasi lengkap sebelum booking – pengguna dapat menilai apakah hotel tersebut cocok dengan kebutuhannya. Dengan adanya detail lengkap dalam satu halaman, pengguna tidak perlu mencari informasi di tempat lain, sehingga proses pengambilan keputusan lebih cepat.
+## Pemesanan Kamar (Booking): Trevio memungkinkan pengguna melakukan pemesanan kamar hotel langsung dari aplikasi. Setelah memilih hotel dan kamar, pengguna dapat mengisi formulir booking (data diri, tanggal check-in/out, dll) di halaman Booking. Cara kerja: ketika formulir pemesanan dikirim, BookingController (bagian back-end) akan menyimpan data pemesanan ke database. Sistem juga terintegrasi dengan metode pembayaran: pengguna mendapatkan instruksi pembayaran online, dan admin akan memverifikasi pembayaran tersebut melalui panel admin. Nilai tambah: fitur booking online ini mengotomatisasi proses pemesanan yang sebelumnya manual. Pengguna mendapatkan kemudahan karena bisa memesan kapan saja dan langsung mendapat konfirmasi ketersediaan. Terintegrasinya pembayaran online membuat proses transaksi aman dan cepat; pengguna cukup mengikuti petunjuk pembayaran (misalnya melalui gateway Xendit) tanpa khawatir konfirmasi, karena sistem akan mencatat status pembayaran dan bahkan mendukung proses refund jika terjadi pembatalan.
 Teknologi dan Alasan Pemilihan
-Front-end: Aplikasi ini dibangun menggunakan HTML, CSS (Tailwind CSS), dan sedikit JavaScript untuk interaksi dasar. Dipilihnya Tailwind CSS sebagai kerangka kerja CSS utama karena pendekatan utility-first-nya mempercepat proses styling dan memastikan konsistensi desain sesuai Design System. Tailwind juga memudahkan pembuatan tampilan responsif (mobile-first) berkat utility classes yang siap pakai, sehingga pengalaman pengguna di berbagai ukuran layar tetap optimal. Selain itu, tim sudah familiar dengan HTML dan CSS dasar, sehingga integrasi Tailwind terasa ringan tanpa kurva belajar yang terlalu tinggi.
-Back-end: Teknologi back-end yang digunakan adalah PHP dengan arsitektur MVC sederhana (tanpa framework besar seperti Laravel). Tim mengimplementasikan struktur MVC manual: folder controllers, models, dan views dikelola sendiri. Alasan pemilihan PHP adalah karena kemudahan penggunaan dan ketersediaannya yang luas. PHP cocok untuk proyek web seperti ini dan banyak pustaka tambahan (misal PHPMailer untuk email, integrasi WhatsApp API) yang siap digunakan. Dengan MVC, kode menjadi lebih terstruktur: logic terpisah dari tampilan, sehingga pengembangan oleh beberapa anggota tim (front-end & back-end) bisa paralel. PHP juga dipilih karena tim sudah pernah mempelajarinya dalam perkuliahan dan hosting PHP-MySQL mudah didapat (sesuai kebutuhan deployment di server).
-Penyimpanan Data: Untuk database, MySQL (MariaDB) digunakan sebagai sistem manajemen basis data relasional. MySQL dipilih karena sudah menjadi standar umum untuk aplikasi web, mendukung relasi data yang kompleks (antar table seperti users, hotels, rooms, bookings, payments, dll), serta handal menangani transaksi. MySQL juga terintegrasi baik dengan PHP (tersedia ekstensi mysqli/PDO), sehingga mempermudah implementasi query dan operasi CRUD dari kode PHP. Selain itu, pilihan MySQL didukung oleh pertimbangan bahwa tim telah mendesain schema database (lihat database/trevio_final.sql) secara relasional untuk memastikan konsistensi data (misal menjaga integritas data booking, ketersediaan kamar, transaksi pembayaran).
-Alasan Pemilihan: Secara umum, kombinasi teknologi di atas dipilih dengan pertimbangan kemudahan, familiaritas tim, dan kebutuhan fungsional proyek. Tailwind CSS dan PHP-MySQL adalah teknologi yang ringan dan cukup bagi scope aplikasi ini. Menggunakan teknologi populer tersebut juga memastikan jika ada kendala, banyak referensi komunitas yang tersedia. Pendekatan mobile-first responsif dipenuhi oleh Tailwind, sedangkan kebutuhan autentikasi, transaksi, dll dapat ditangani oleh PHP-MySQL dengan tambahan library saat diperlukan. Dengan stack ini, pengembangan dapat diselesaikan dalam waktu terbatas proyek dan hasil aplikasi tetap memenuhi kebutuhan fungsional yang diinginkan.
+## Front-end: Aplikasi ini dibangun menggunakan HTML, CSS (Tailwind CSS), dan sedikit JavaScript untuk interaksi dasar. Dipilihnya Tailwind CSS sebagai kerangka kerja CSS utama karena pendekatan utility-first-nya mempercepat proses styling dan memastikan konsistensi desain sesuai Design System. Tailwind juga memudahkan pembuatan tampilan responsif (mobile-first) berkat utility classes yang siap pakai, sehingga pengalaman pengguna di berbagai ukuran layar tetap optimal. Selain itu, tim sudah familiar dengan HTML dan CSS dasar, sehingga integrasi Tailwind terasa ringan tanpa kurva belajar yang terlalu tinggi.
+## Back-end: Teknologi back-end yang digunakan adalah PHP dengan arsitektur MVC sederhana (tanpa framework besar seperti Laravel). Tim mengimplementasikan struktur MVC manual: folder controllers, models, dan views dikelola sendiri. Alasan pemilihan PHP adalah karena kemudahan penggunaan dan ketersediaannya yang luas. PHP cocok untuk proyek web seperti ini dan banyak pustaka tambahan (misal PHPMailer untuk email, integrasi WhatsApp API) yang siap digunakan. Dengan MVC, kode menjadi lebih terstruktur: logic terpisah dari tampilan, sehingga pengembangan oleh beberapa anggota tim (front-end & back-end) bisa paralel. PHP juga dipilih karena tim sudah pernah mempelajarinya dalam perkuliahan dan hosting PHP-MySQL mudah didapat (sesuai kebutuhan deployment di server).
+## Penyimpanan Data: Untuk database, MySQL (MariaDB) digunakan sebagai sistem manajemen basis data relasional. MySQL dipilih karena sudah menjadi standar umum untuk aplikasi web, mendukung relasi data yang kompleks (antar table seperti users, hotels, rooms, bookings, payments, dll), serta handal menangani transaksi. MySQL juga terintegrasi baik dengan PHP (tersedia ekstensi mysqli/PDO), sehingga mempermudah implementasi query dan operasi CRUD dari kode PHP. Selain itu, pilihan MySQL didukung oleh pertimbangan bahwa tim telah mendesain schema database (lihat database/trevio_final.sql) secara relasional untuk memastikan konsistensi data (misal menjaga integritas data booking, ketersediaan kamar, transaksi pembayaran).
+## Alasan Pemilihan: Secara umum, kombinasi teknologi di atas dipilih dengan pertimbangan kemudahan, familiaritas tim, dan kebutuhan fungsional proyek. Tailwind CSS dan PHP-MySQL adalah teknologi yang ringan dan cukup bagi scope aplikasi ini. Menggunakan teknologi populer tersebut juga memastikan jika ada kendala, banyak referensi komunitas yang tersedia. Pendekatan mobile-first responsif dipenuhi oleh Tailwind, sedangkan kebutuhan autentikasi, transaksi, dll dapat ditangani oleh PHP-MySQL dengan tambahan library saat diperlukan. Dengan stack ini, pengembangan dapat diselesaikan dalam waktu terbatas proyek dan hasil aplikasi tetap memenuhi kebutuhan fungsional yang diinginkan.
 Dokumentasi Akses Proyek
-Link Repository: Aplikasi ini bersifat open-source dan kode sumbernya dapat diakses di GitHub pada repositori berikut: trevio-project – GitHub (branch utama: development).
-Panduan Instalasi & Menjalankan: Untuk menjalankan aplikasi secara lokal, diperlukan environment PHP 8 dan MySQL. Langkah instalasi secara ringkas:
+## Link Repository: Aplikasi ini bersifat open-source dan kode sumbernya dapat diakses di GitHub pada repositori berikut: trevio-project – GitHub (branch utama: development).
+## Panduan Instalasi & Menjalankan: Untuk menjalankan aplikasi secara lokal, diperlukan environment PHP 8 dan MySQL. Langkah instalasi secara ringkas:
 Clone repositori dari GitHub ke komputer lokal.
-Buat sebuah database MySQL baru (misal nama: trevio), lalu import file SQL schema database/trevio_final.sql ke dalam database tersebut. (Opsional: import juga database/seeders.sql untuk data contoh).
+## Buat sebuah database MySQL baru (misal nama: trevio), lalu import file SQL schema database/trevio_final.sql ke dalam database tersebut. (Opsional: import juga database/seeders.sql untuk data contoh).
 Salin file konfigurasi contoh .env.example menjadi .env, kemudian ubah pengaturan di dalamnya sesuai lingkungan lokal (terutama konfigurasi DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 Pastikan web server mengarah ke folder public/ sebagai document root. Jika menggunakan XAMPP, bisa menaruh proyek di htdocs/trevio-project dan mengakses via http://localhost/trevio-project/public.
 Jalankan aplikasi. Halaman utama (landing page) seharusnya dapat diakses dan menampilkan halaman pencarian hotel. Akun default untuk testing juga disediakan (misal: admin@trevio.com/password untuk admin).
